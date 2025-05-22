@@ -116,7 +116,11 @@ int main() {
                         }
                     }
                 }
-                printf("Array sorted %s.\n", (o == 'A' || o == 'a') ? "ascending" : "descending");
+                if(o == 'A' || o == 'a'){
+                    printf("Array sorted in ascending order\n");
+                } else{
+                    printf("Array sorted in descending order\n");
+                }
                 break;
             }
 
